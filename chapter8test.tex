@@ -1,5 +1,9 @@
-\documentclass[a4paper,12pt]{exam}
+\documentclass[letter,12pt]{exam}
 \usepackage{gensymb}
+\usepackage{tikzit}
+
+\input{styles/particle.tikzstyles}
+
 \begin{document}
 
 \begin{center}
@@ -74,16 +78,31 @@
 \section{Full Solution}
 \begin{questions}
 
-\question A particle with mass $m$ and charge $e$ is launched out of a device with a velocity of $v$ m/s into deep space. After a while, the particle enters a magnetic field with a strength of B at an angle of $45 \degree$ above the horizontal.
+\question[6] A particle with mass $m$ and charge $e$ is launched out of a device with a velocity of $v$ m/s into deep space. After a while, the particle enters a magnetic field with a strength of B [into page] at an angle of $45 \degree$ above the horizontal.
+
+\ctikzfig{q3}
 
 \begin{parts}
-    \part Using the variables given above, what is the $\vec{F}_m$ experienced by the particle?
+
+    \part[1] Using the variables given above, what is the $\vec{F}_m$ experienced by the particle?
 
     \vspace{\stretch{1}}
 
-    \clearpage
+    % \clearpage
 
-    \part If the particle stays in the field for 10s, use the variables above to determine the final velocity.
+    \part[2] After a period of time, the particle settles into a rising circular orbit. Determine the radius of this orbit.
+
+    \vspace{\stretch{1}}
+
+    \part[1] If the mass was halved to $\frac{m}{2}$ and the magnetic field was reversed to be [out of page], describe the new path the particle follows.
+
+    \vspace{\stretch{1}}
+
+
+    \part[2] Determine the work done when the particle completes a $\frac{1}{4}$ revolution using the situation in (c).
+
+    \vspace{\stretch{1}}
+
 \end{parts}
 
 \end{questions}
